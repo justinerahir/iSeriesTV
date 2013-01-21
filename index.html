@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maxium-scale=1">
+        <meta name="description" content="iSeries TV - Le guide de vos séries préférées !">
+		<title>iSeries TV &ndash; Le guide de vos séries préférées !</title>
+
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+		<link href="css/screen.css" rel="stylesheet" type="text/css">
+
+	</head>
+	<body>
+		<div id="container">
+			<div id="home">
+				<header>
+					<h1>
+						<a class="enter" title="Entrez sur iSeries TV">
+							<img src="img/logo.png" alt="iSeries TV - Le guide de vos séries préférées !">
+						</a>
+					</h1>
+				</header>
+			</div>
+			<nav id="menu">
+				<ul>
+					<li class="mes-series">
+						<img src="img/icones/tele.png" alt="Liste de mes séries préférées">
+						Mes séries
+					</li>
+					<li class="planning">
+						<img src="img/icones/oeil.png" alt="Les séries que je dois regarder">
+						Planning
+					</li>
+					<li class="explorer">
+						<img src="img/icones/loupe2.png" alt="Découvrir de nouvelles séries">
+						Explorer
+					</li>
+					<li class="a-propos">
+						<img src="img/icones/reglage.png" alt="Accéder aux réglages">
+						A propos
+					</li>
+				</ul>
+			</nav>
+			<section id="content">
+				<div id="mes-series">
+					<header>
+						<h3>
+							Mes séries
+						</h3>
+						<p class="menu">Menu</p>
+						<p class="ajouter-serie"  title="Ajouter une série">Ajouter une série</p>
+					</header>
+					<ul class="global liste-series">
+					</ul>
+				</div>
+				<div id="ajouter-serie">
+					<header>
+						<h3>
+							Ajouter une série
+						</h3>
+						<p class="menu">Menu</p>
+					</header>
+					<form action="#" method="get">
+						<input type="text" id="recherche-serie" placeholder="Tapez le titre d'une série">
+						<input type="submit" id="rechercher" value="Rechercher" title="Rechercher">
+					</form>
+
+					<div id="resultats">
+						<ul class="global liste-resultats">
+						</ul>
+					</div>
+				</div>
+				<div id="decouvrir-serie">
+					<header>
+						<h3>
+							Informations
+						</h3>
+						<p class="retour">Retour</p>
+					</header>
+					<img />
+					<h4></h4>
+					<p class="genre"></p>
+
+					<h5>Synopsis</h5>
+						<div id="description"></div>
+						<p class="saisons"></p>
+
+					<h5>Détails</h5>
+						<p class="statut"></p>
+						<p class="chaine"></p>
+				</div>
+				<div id="planning">
+					<header>
+						<h3>
+							Mon planning
+						</h3>
+						<p class="menu">Menu</p>
+						<p class="ajouter-serie"  title="Ajouter une série">Ajouter une série</p>
+					</header>
+					<ul>
+						<li class="aucun-resultat"></li>
+						<li>
+							<img/>
+						</li>
+					</ul>
+				</div>
+				<div id="a-propos">
+					<header>
+						<h3>
+							A propos
+						</h3>
+						<p class="menu">Menu</p>
+					</header>
+					<div>
+						<p>Application réalisée par</p>
+						<p class="name">Justine Rahir</p>
+						<img src="img/logo.png" alt="iSeries TV - Le guide de vos séries préférées !">
+						<p class="version">Version 1.1</p>
+						<p>©iSeriesTV &ndash; Janvier 2013 </p>
+					</div>
+				</div>
+			</section>
+		</div>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
